@@ -62,5 +62,4 @@ file.close()
 
 for fake_path in fake_paths:
     fake_path = "/".join(fake_path)
-    print(fake_path)
     os.makedirs(fake_path, exist_ok=True)
